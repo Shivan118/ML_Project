@@ -48,3 +48,8 @@ To Stop Docker Container
 ```
 dockr stop <container_ids>
 ```
+
+
+```
+python setup.py install
+```
