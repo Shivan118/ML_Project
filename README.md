@@ -19,9 +19,9 @@ conda activate venv/
 ```
 
 To Setup CI/CD Pipeline in heroku we need 3 information
-1. Heroku_EMAIl = shivan@ineuron.ai
-2. HEROKU_API_KEY = ad0864da-d970-4fa9-a73c-3e7858cc5a11
-3. HEROKU_APP_NAME = ml-regression-app122
+1. Heroku_EMAIl = <>
+2. HEROKU_API_KEY = <>
+3. HEROKU_APP_NAME = <>
 
 BUILD DOCKER IMAGE
 ```
@@ -37,6 +37,7 @@ docker images
 Run Docker Image
 ```
 docker run -p 5000:5000 -e PORT=5000 <image_id>
+```
 
 To Check Running Container is Docer
 ```
@@ -47,5 +48,3 @@ To Stop Docker Container
 ```
 dockr stop <container_ids>
 ```
-
-2h9m.
